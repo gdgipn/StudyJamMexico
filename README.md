@@ -22,5 +22,8 @@ PreLollipopMaterialDesign by thespianartist:
 
 https://github.com/thespianartist/PreLollipopMaterialDesign
 
+RecyclerView by AndroidTalks (leomindez):
+
+https://github.com/AndroidTalks/RecyclerView
 
 #Projects:
