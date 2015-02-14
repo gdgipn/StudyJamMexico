@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="178dp"
+    android:background="@drawable/mv"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="5dp"
+            android:text="erikcaffrey10@gmail.com"
+            android:textColor="@color/accent"
+            android:textSize="14sp"
+            android:textStyle="normal"
+
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/ll"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:text="Erik Caffrey"
+        android:textColor="@color/primary_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+        android:layout_marginStart="28dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_toRightOf="@+id/circleView"
+        android:layout_toEndOf="@+id/circleView" />
+</RelativeLayout>
