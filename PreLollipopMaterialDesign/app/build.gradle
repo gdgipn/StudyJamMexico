@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        applicationId "la.mejorando.prelollipopmaterialdesign"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Librerias standar en el SDK de Android:
+
+    //Necesario para usar Toolbar y configurar el Tema Material en V14+
+    compile 'com.android.support:appcompat-v7:21.0.2'
+
+    //Libreria para usar un RecyclerView
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+
+    //Librerias de terceros :
+
+    //Libreria para agregar un Floating Action Button
+    compile 'com.getbase:floatingactionbutton:1.2.1'
+
+    //Libreria para volver circular una Imagen
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+
+}
