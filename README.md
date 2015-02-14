@@ -10,19 +10,19 @@ https://plus.google.com/events/cdq6780vmp6b2vttjtnfjg5ubls
 
 #Thanks:
 
-RequestsExample by Silmood: 
+**RequestsExample** by Silmood: 
 
 https://github.com/silmood/RequestsExamples
 
-Androidtitlan-MaterialDesign by Erikcaffrey:
+** Androidtitlan-MaterialDesign**  by Erikcaffrey:
 
 https://github.com/erikcaffrey/Androidtitlan-MaterialDesign
 
-PreLollipopMaterialDesign by thespianartist:
+** PreLollipopMaterialDesign**  by thespianartist:
 
 https://github.com/thespianartist/PreLollipopMaterialDesign
 
-RecyclerView by AndroidTalks (leomindez):
+** RecyclerView**  by AndroidTalks (leomindez):
 
 https://github.com/AndroidTalks/RecyclerView
 
