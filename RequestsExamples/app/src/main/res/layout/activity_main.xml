@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/event_info"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="32dp"
+        android:paddingTop="32dp"
+        android:orientation="vertical"
+        android:background="@color/primary_color">
+
+        <TextView
+            android:id="@+id/event_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text"/>
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:maxLines="7"/>
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/etx_place"
+        android:layout_marginTop="28dp"
+        android:hint="@string/place_hint"
+        android:layout_below="@+id/event_info"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_asynctask"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etx_place"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_selector"
+        android:text="@string/asynctask_label" />
+
+    <Button
+        android:id="@+id/btn_volley"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_asynctask"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_selector"
+        android:text="@string/volley_label" />
+
+    <Button
+        android:id="@+id/btn_retrofit"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_volley"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_selector"
+        android:text="@string/retrofit_label" />
+
+</RelativeLayout>
