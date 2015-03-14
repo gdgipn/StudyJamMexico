@@ -29,11 +29,11 @@ https://github.com/thespianartist/PreLollipopMaterialDesign
 
 https://github.com/AndroidTalks/RecyclerView
 
-**Login API Facebook by GDGUNAM (salvadormaurilio)
+**Login API Facebook ** by GDGUNAM (salvadormaurilio)
 
 https://github.com/salvadormaurilio/LoginFacebookDev.f
 
-** Construyendo tu primera app en android by GDGBogota (@carlosrojas_o)
+** Construyendo tu primera app en android ** by GDGBogota (@carlosrojas_o)
 
  https://github.com/BootcampWithUS/android101 
 
