@@ -29,4 +29,8 @@ https://github.com/thespianartist/PreLollipopMaterialDesign
 
 https://github.com/AndroidTalks/RecyclerView
 
+**Login API Facebook by GDGUNAM (salvadormaurilio)
+
+https://github.com/salvadormaurilio/LoginFacebookDev.f
+
 #Projects:
