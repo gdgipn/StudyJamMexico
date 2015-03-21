@@ -10,17 +10,31 @@ https://plus.google.com/events/cdq6780vmp6b2vttjtnfjg5ubls
 
 #Thanks:
 
-RequestsExample by Silmood: 
+**RequestsExample** by Silmood: 
 
 https://github.com/silmood/RequestsExamples
 
-Androidtitlan-MaterialDesign by Erikcaffrey:
+**Androidtitlan-MaterialDesign**  by Erikcaffrey:
 
 https://github.com/erikcaffrey/Androidtitlan-MaterialDesign
 
-PreLollipopMaterialDesign by thespianartist:
+
+https://github.com/GDGAndroidtitlan/Retrofit-StudyJams
+
+**PreLollipopMaterialDesign**  by thespianartist:
 
 https://github.com/thespianartist/PreLollipopMaterialDesign
 
+**RecyclerView**  by AndroidTalks (leomindez):
+
+https://github.com/AndroidTalks/RecyclerView
+
+**Login API Facebook** by GDGUNAM (salvadormaurilio)
+
+https://github.com/salvadormaurilio/LoginFacebookDev.f
+
+**Construyendo tu primera app en android** by GDGBogota (@carlosrojas_o)
+
+ https://github.com/BootcampWithUS/android101 
 
 #Projects:
