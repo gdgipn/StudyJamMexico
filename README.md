@@ -18,8 +18,9 @@ https://github.com/silmood/RequestsExamples
 
 https://github.com/erikcaffrey/Androidtitlan-MaterialDesign
 
-
 https://github.com/GDGAndroidtitlan/Retrofit-StudyJams
+
+https://github.com/erikcaffrey/ContentProviderCursorLoader
 
 **PreLollipopMaterialDesign**  by thespianartist:
 
